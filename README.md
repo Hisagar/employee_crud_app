@@ -1,7 +1,7 @@
 
 ## Following are steps to setup this project on local.
 ### Prerequisite :
-1. Install Symphony.
+1. Install Symfony.
 2. Install Composer.
 3. Install php, mysql & apache web server on your local machine.
 
