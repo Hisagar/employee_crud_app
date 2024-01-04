@@ -3,6 +3,7 @@ Following are steps to setup this project on local
 2. Update Mysql Database URL [here](https://github.com/Hisagar/employee_crud_app/blob/master/.env#L27)
 3. Run ```composer update``` & ```composer install```
 4. Start the Symfony development server : ```symfony server:start```
+5. Validate api documentation @ ```http://localhost:8000/api```
 
 
 
