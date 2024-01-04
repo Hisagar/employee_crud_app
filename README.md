@@ -1,4 +1,4 @@
-Following are steps to setup this project on local.
+## Following are steps to setup this project on local.
 1. Install php, mysql & apache web server on your local machine.
 2. Update Mysql Database URL [here](https://github.com/Hisagar/employee_crud_app/blob/master/.env#L27)
 3. Run ```composer update``` & ```composer install```
