@@ -7,9 +7,12 @@
 
 ### Steps:    
 1. Update Mysql Database URL [here](https://github.com/Hisagar/employee_crud_app/blob/master/.env#L27)
-2. Run ```composer update``` & ```composer install```
-3. Start the Symfony development server : ```symfony server:start```
-4. Validate api documentation @ ```http://localhost:8000/api```
+2. Create Database as per entity ```php bin/console doctrine:database:create ```
+3. Create migration ``` php bin/console make:migration
+php bin/console doctrine:migrations:migrate ```
+4. Run ```composer update``` & ```composer install```
+5. Start the Symfony development server : ```symfony server:start```
+6. Validate api documentation @ ```http://localhost:8000/api```
 
 
 
